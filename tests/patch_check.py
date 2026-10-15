@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # coding: utf-8
-"""AC11: patches/bot_webapp.patch applies to the current bot.py, compiles, and is inert
+"""AC11: patches/bot_webapp.patch applies to the current bot.py (or is already applied), compiles, and is inert
 without SONNIK_WEBAPP_URL. Works on a temporary copy; the live bot is never touched and
 no Telegram request is made (api/send are replaced by stubs).
 
@@ -48,10 +48,18 @@ def main() -> int:
     tmp = Path(tempfile.mkdtemp(prefix="sonnik_patch_"))
     shutil.copy(BOT / "bot.py", tmp / "bot.py")
     r = subprocess.run(["git", "apply", "--check", str(PATCH)], cwd=tmp, capture_output=True, text=True)
-    check(r.returncode == 0, "patch applies to current bot.py " + r.stderr.strip())
     if r.returncode:
-        return 1
-    subprocess.run(["git", "apply", str(PATCH)], cwd=tmp, check=True)
+        # live bot.py may already carry the patch (enabled 16.10.2026): then test it as is
+        rr = subprocess.run(["git", "apply", "-R", "--check", str(PATCH)], cwd=tmp,
+                            capture_output=True, text=True)
+        check(rr.returncode == 0, "patch applies to current bot.py or is already applied"
+              + ("" if rr.returncode == 0 else " " + r.stderr.strip()))
+        if rr.returncode:
+            return 1
+        print("     (patch already applied to the live bot.py, checking it as is)")
+    else:
+        check(True, "patch applies to current bot.py")
+        subprocess.run(["git", "apply", str(PATCH)], cwd=tmp, check=True)
     py_compile.compile(str(tmp / "bot.py"), doraise=True)
     check(True, "patched bot.py compiles")
 
