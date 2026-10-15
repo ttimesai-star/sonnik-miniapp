@@ -1,0 +1,3493 @@
+{
+ "_": {
+  "generator": "tools/export_fixtures.py",
+  "lang": "en",
+  "symbols.json": "4bf3b8121692bedb3a10d4554811cb08991130c08e35774c56387b9727a9f3b6",
+  "symbols_en.json": "04af53785ae378c37a9d3c28f3ecb686220653ab275c99ed8c37fb566508c146",
+  "free_symbols": 3
+ },
+ "cases": [
+  {
+   "text": "My husband cheated on me with my best friend and I was crying.",
+   "norm": "my husband cheated on me with my best friend and i was crying ",
+   "symbols": [
+    "муж",
+    "измена",
+    "друг",
+    "плач"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "муж",
+    "измена",
+    "друг"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "My ex came back and wanted to talk, it felt strange but calm.",
+   "norm": "my ex came back and wanted to talk  it felt strange but calm ",
+   "symbols": [
+    "бывший"
+   ],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [
+    "бывший"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "A bright dream. Dreams like this restore your energy and often come when a decision has already been made, even if you haven't said it out loud yet."
+  },
+  {
+   "text": "I dreamt I was pregnant and everyone was smiling at me.",
+   "norm": "i dreamt i was pregnant and everyone was smiling at me ",
+   "symbols": [
+    "беременность"
+   ],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [
+    "беременность"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "A bright dream. Dreams like this restore your energy and often come when a decision has already been made, even if you haven't said it out loud yet."
+  },
+  {
+   "text": "I was taking an exam and couldn't remember anything, I panicked.",
+   "norm": "i was taking an exam and couldn t remember anything  i panicked ",
+   "symbols": [
+    "экзамен"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "экзамен"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "I was late for my final exam and the door was locked.",
+   "norm": "i was late for my final exam and the door was locked ",
+   "symbols": [
+    "опоздание",
+    "экзамен",
+    "дверь"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "опоздание",
+    "экзамен",
+    "дверь"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "My late grandmother visited me and held my hand.",
+   "norm": "my late grandmother visited me and held my hand ",
+   "symbols": [
+    "покойник",
+    "бабушка",
+    "руки"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "покойник",
+    "бабушка",
+    "руки"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "My dead father sat at the kitchen table like nothing happened.",
+   "norm": "my dead father sat at the kitchen table like nothing happened ",
+   "symbols": [
+    "покойник",
+    "отец",
+    "кухня"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "покойник",
+    "отец",
+    "кухня"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I was walking on a bridge over dark water and someone chased me.",
+   "norm": "i was walking on a bridge over dark water and someone chased me ",
+   "symbols": [
+    "мост",
+    "темнота",
+    "вода",
+    "погоня"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "мост",
+    "темнота",
+    "вода"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "Swimming in the sea, the water was clear and warm.",
+   "norm": "swimming in the sea  the water was clear and warm ",
+   "symbols": [
+    "плавание",
+    "море",
+    "вода"
+   ],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [
+    "плавание",
+    "море",
+    "вода"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "A bright dream. Dreams like this restore your energy and often come when a decision has already been made, even if you haven't said it out loud yet."
+  },
+  {
+   "text": "The river flooded our house and we carried things upstairs.",
+   "norm": "the river flooded our house and we carried things upstairs ",
+   "symbols": [
+    "река",
+    "наводнение",
+    "дом"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "река",
+    "наводнение",
+    "дом"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I was flying over the city, it felt like freedom.",
+   "norm": "i was flying over the city  it felt like freedom ",
+   "symbols": [
+    "полёт",
+    "город"
+   ],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [
+    "полёт",
+    "город"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "A bright dream. Dreams like this restore your energy and often come when a decision has already been made, even if you haven't said it out loud yet."
+  },
+  {
+   "text": "I was falling from a tall building and woke up terrified.",
+   "norm": "i was falling from a tall building and woke up terrified ",
+   "symbols": [
+    "падение",
+    "страх"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "падение",
+    "страх"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "A snake bit my leg and I couldn't move.",
+   "norm": "a snake bit my leg and i couldn t move ",
+   "symbols": [
+    "змея",
+    "укус",
+    "нога",
+    "оцепенение"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "змея",
+    "укус",
+    "нога"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "All my teeth fell out into my hand.",
+   "norm": "all my teeth fell out into my hand ",
+   "symbols": [
+    "зубы",
+    "руки"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "зубы",
+    "руки"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "A black cat crossed the road and then sat next to me.",
+   "norm": "a black cat crossed the road and then sat next to me ",
+   "symbols": [
+    "кошка",
+    "дорога"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "кошка",
+    "дорога"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "A big dog was chasing me across a field.",
+   "norm": "a big dog was chasing me across a field ",
+   "symbols": [
+    "собака",
+    "погоня",
+    "поле"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "собака",
+    "погоня",
+    "поле"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "We were driving, my brother at the wheel, and the brakes failed.",
+   "norm": "we were driving  my brother at the wheel  and the brakes failed ",
+   "symbols": [
+    "машина",
+    "брат"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "машина",
+    "брат"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I missed the train and ran along the platform with a suitcase.",
+   "norm": "i missed the train and ran along the platform with a suitcase ",
+   "symbols": [
+    "опоздание",
+    "поезд",
+    "бег",
+    "вокзал",
+    "сумка"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "опоздание",
+    "поезд",
+    "бег"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I lost my keys and couldn't get into my apartment.",
+   "norm": "i lost my keys and couldn t get into my apartment ",
+   "symbols": [
+    "поиск",
+    "ключ",
+    "дом"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "поиск",
+    "ключ",
+    "дом"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "I found money on the street, a lot of cash.",
+   "norm": "i found money on the street  a lot of cash ",
+   "symbols": [
+    "деньги",
+    "дорога"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "деньги",
+    "дорога"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "A wedding, I was in a white dress but there was no groom.",
+   "norm": "a wedding  i was in a white dress but there was no groom ",
+   "symbols": [
+    "свадьба",
+    "одежда"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "свадьба",
+    "одежда"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "A funeral of a stranger, everyone in black.",
+   "norm": "a funeral of a stranger  everyone in black ",
+   "symbols": [
+    "покойник",
+    "незнакомец"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "покойник",
+    "незнакомец"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "A baby was crying in the next room and I couldn't find it.",
+   "norm": "a baby was crying in the next room and i couldn t find it ",
+   "symbols": [
+    "ребёнок",
+    "плач",
+    "комната"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "ребёнок",
+    "плач",
+    "комната"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "Fire at school, smoke everywhere, we ran outside.",
+   "norm": "fire at school  smoke everywhere  we ran outside ",
+   "symbols": [
+    "огонь",
+    "школа",
+    "бег"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "огонь",
+    "школа",
+    "бег"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "The house was collapsing, the walls cracked.",
+   "norm": "the house was collapsing  the walls cracked ",
+   "symbols": [
+    "дом",
+    "землетрясение"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "дом",
+    "землетрясение"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I was naked in the middle of the street and everyone stared.",
+   "norm": "i was naked in the middle of the street and everyone stared ",
+   "symbols": [
+    "нагота",
+    "дорога"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "нагота",
+    "дорога"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "Someone followed me through a dark forest.",
+   "norm": "someone followed me through a dark forest ",
+   "symbols": [
+    "погоня",
+    "темнота",
+    "лес"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "погоня",
+    "темнота",
+    "лес"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "Long hair, I was brushing it in front of a mirror.",
+   "norm": "long hair  i was brushing it in front of a mirror ",
+   "symbols": [
+    "волосы",
+    "зеркало"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "волосы",
+    "зеркало"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I looked in the mirror and saw a stranger's face.",
+   "norm": "i looked in the mirror and saw a stranger s face ",
+   "symbols": [
+    "зеркало",
+    "незнакомец",
+    "лицо"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "зеркало",
+    "незнакомец",
+    "лицо"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "A spider was spinning a web above my bed.",
+   "norm": "a spider was spinning a web above my bed ",
+   "symbols": [
+    "паук",
+    "кровать"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "паук",
+    "кровать"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "Mice were running in the kitchen and I was scared.",
+   "norm": "mice were running in the kitchen and i was scared ",
+   "symbols": [
+    "мышь",
+    "бег",
+    "кухня",
+    "страх"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "мышь",
+    "бег",
+    "кухня"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "I was fishing on the lake with my dad.",
+   "norm": "i was fishing on the lake with my dad ",
+   "symbols": [
+    "рыба",
+    "озеро",
+    "отец"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "рыба",
+    "озеро",
+    "отец"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "An island in the middle of the ocean, I was alone.",
+   "norm": "an island in the middle of the ocean  i was alone ",
+   "symbols": [
+    "море"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "море"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "Autumn leaves were falling, I felt sad and lonely.",
+   "norm": "autumn leaves were falling  i felt sad and lonely ",
+   "symbols": [],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "A tiger came out of its cage and looked at me.",
+   "norm": "a tiger came out of its cage and looked at me ",
+   "symbols": [
+    "тигр"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "тигр"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I rode a horse across a field.",
+   "norm": "i rode a horse across a field ",
+   "symbols": [
+    "лошадь",
+    "поле"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "лошадь",
+    "поле"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "Huge waves covered the beach.",
+   "norm": "huge waves covered the beach ",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I started a crusade against my painting class, it was a catalog of errors.",
+   "norm": "i started a crusade against my painting class  it was a catalog of errors ",
+   "symbols": [
+    "школа"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "школа"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "The season started on the planet, a huge star appeared.",
+   "norm": "the season started on the planet  a huge star appeared ",
+   "symbols": [
+    "звёзды"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "звёзды"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "WATER EVERYWHERE!!! I couldn't breathe.",
+   "norm": "water everywhere  i couldn t breathe ",
+   "symbols": [
+    "вода"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "вода"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "I'm in a hospital and the doctor says everything is fine.",
+   "norm": "i m in a hospital and the doctor says everything is fine ",
+   "symbols": [
+    "болезнь"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "болезнь"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "We were drinking tea and chatting, nothing special.",
+   "norm": "we were drinking tea and chatting  nothing special ",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "Just a normal day at work.",
+   "norm": "just a normal day at work ",
+   "symbols": [
+    "работа"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "работа"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I was at the office and my boss yelled at me.",
+   "norm": "i was at the office and my boss yelled at me ",
+   "symbols": [
+    "работа",
+    "крик"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "работа",
+    "крик"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I got fired and packed my things into a box.",
+   "norm": "i got fired and packed my things into a box ",
+   "symbols": [
+    "работа"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "работа"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "A church with ringing bells.",
+   "norm": "a church with ringing bells ",
+   "symbols": [
+    "храм",
+    "телефон"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "храм",
+    "телефон"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "An angel was glowing and smiling.",
+   "norm": "an angel was glowing and smiling ",
+   "symbols": [
+    "ангел",
+    "свет"
+   ],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [
+    "ангел",
+    "свет"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "A bright dream. Dreams like this restore your energy and often come when a decision has already been made, even if you haven't said it out loud yet."
+  },
+  {
+   "text": "The elevator got stuck between floors.",
+   "norm": "the elevator got stuck between floors ",
+   "symbols": [
+    "лифт"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "лифт"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "At night\nI dreamt of a river\nand a boat without oars.",
+   "norm": "at night\ni dreamt of a river\nand a boat without oars ",
+   "symbols": [
+    "темнота",
+    "река",
+    "лодка"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "темнота",
+    "река",
+    "лодка"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I was flying and happy, then I got scared and fell.",
+   "norm": "i was flying and happy  then i got scared and fell ",
+   "symbols": [
+    "полёт",
+    "страх"
+   ],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [
+    "полёт",
+    "страх"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "A bright dream. Dreams like this restore your energy and often come when a decision has already been made, even if you haven't said it out loud yet."
+  },
+  {
+   "text": "we started talking",
+   "norm": "we started talking",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the season changed",
+   "norm": "the season changed",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "he took a seat",
+   "norm": "he took a seat",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "she had a catalog",
+   "norm": "she had a catalog",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "it was a catastrophe",
+   "norm": "it was a catastrophe",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a cartoon on tv",
+   "norm": "a cartoon on tv",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my career was fine",
+   "norm": "my career was fine",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the planet looked blue",
+   "norm": "the planet looked blue",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "she was a coward",
+   "norm": "she was a coward",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "bullet points on a slide",
+   "norm": "bullet points on a slide",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a friendly smile",
+   "norm": "a friendly smile",
+   "symbols": [],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the handsome man",
+   "norm": "the handsome man",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I handled it",
+   "norm": "i handled it",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a yellow wall",
+   "norm": "a yellow wall",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a huge wave",
+   "norm": "a huge wave",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a demonstration",
+   "norm": "a demonstration",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "Angela smiled",
+   "norm": "angela smiled",
+   "symbols": [],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "relatively quiet",
+   "norm": "relatively quiet",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a license plate",
+   "norm": "a license plate",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "Marshall said hi",
+   "norm": "marshall said hi",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I made a mistake",
+   "norm": "i made a mistake",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "Sunday morning",
+   "norm": "sunday morning",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "sunglasses",
+   "norm": "sunglasses",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I fell asleep early",
+   "norm": "i fell asleep early",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "we fell in love",
+   "norm": "we fell in love",
+   "symbols": [],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I couldn't bear it",
+   "norm": "i couldn t bear it",
+   "symbols": [],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a keyboard",
+   "norm": "a keyboard",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "homework",
+   "norm": "homework",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "Facebook post",
+   "norm": "facebook post",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "an old legend",
+   "norm": "an old legend",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the football match",
+   "norm": "the football match",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "he headed out",
+   "norm": "he headed out",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "warning sign",
+   "norm": "warning sign",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "an antique vase",
+   "norm": "an antique vase",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I have been there",
+   "norm": "i have been there",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the business plan",
+   "norm": "the business plan",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "trample the grass",
+   "norm": "trample the grass",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "shipping costs",
+   "norm": "shipping costs",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "sonic speed",
+   "norm": "sonic speed",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a new song",
+   "norm": "a new song",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the kingdom",
+   "norm": "the kingdom",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "icing on top",
+   "norm": "icing on top",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "painting a picture",
+   "norm": "painting a picture",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "lighthouse keeper",
+   "norm": "lighthouse keeper",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "crystal glass",
+   "norm": "crystal glass",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a crowbar",
+   "norm": "a crowbar",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a sandwich",
+   "norm": "a sandwich",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "hearing aid",
+   "norm": "hearing aid",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "carpet",
+   "norm": "carpet",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a bookmark",
+   "norm": "a bookmark",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "overhead projector",
+   "norm": "overhead projector",
+   "symbols": [],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a bright idea",
+   "norm": "a bright idea",
+   "symbols": [],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I dreamt my teeth were falling out at work",
+   "norm": "i dreamt my teeth were falling out at work",
+   "symbols": [
+    "зубы",
+    "работа"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "зубы",
+    "работа"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a black dog chased me through the woods and I woke up scared",
+   "norm": "a black dog chased me through the woods and i woke up scared",
+   "symbols": [
+    "собака",
+    "погоня",
+    "лес",
+    "страх"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "собака",
+    "погоня",
+    "лес"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "I was flying over the sea with my late grandmother",
+   "norm": "i was flying over the sea with my late grandmother",
+   "symbols": [
+    "полёт",
+    "море",
+    "покойник",
+    "бабушка"
+   ],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [
+    "полёт",
+    "море",
+    "покойник"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "A bright dream. Dreams like this restore your energy and often come when a decision has already been made, even if you haven't said it out loud yet."
+  },
+  {
+   "text": "I was swimming in dark water",
+   "norm": "i was swimming in dark water",
+   "symbols": [
+    "плавание",
+    "темнота",
+    "вода"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "плавание",
+    "темнота",
+    "вода"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a snake bit my leg",
+   "norm": "a snake bit my leg",
+   "symbols": [
+    "змея",
+    "укус",
+    "нога"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "змея",
+    "укус",
+    "нога"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I was drowning in the ocean",
+   "norm": "i was drowning in the ocean",
+   "symbols": [
+    "утопание",
+    "море"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "утопание",
+    "море"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "we walked along a river",
+   "norm": "we walked along a river",
+   "symbols": [
+    "река"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "река"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a quiet lake",
+   "norm": "a quiet lake",
+   "symbols": [
+    "озеро"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "озеро"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "it was raining hard",
+   "norm": "it was raining hard",
+   "symbols": [
+    "дождь"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "дождь"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "everything was covered in snow",
+   "norm": "everything was covered in snow",
+   "symbols": [
+    "снег"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "снег"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the house was on fire",
+   "norm": "the house was on fire",
+   "symbols": [
+    "дом",
+    "огонь"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "дом",
+    "огонь"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a strong wind blew",
+   "norm": "a strong wind blew",
+   "symbols": [
+    "ветер"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "ветер"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "thunder and lightning",
+   "norm": "thunder and lightning",
+   "symbols": [
+    "гроза"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "гроза"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I climbed a mountain",
+   "norm": "i climbed a mountain",
+   "symbols": [
+    "гора"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "гора"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I ran across a field",
+   "norm": "i ran across a field",
+   "symbols": [
+    "бег",
+    "поле"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "бег",
+    "поле"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the sky was purple",
+   "norm": "the sky was purple",
+   "symbols": [
+    "небо"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "небо"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the sun was shining",
+   "norm": "the sun was shining",
+   "symbols": [
+    "солнце",
+    "свет"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "солнце",
+    "свет"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a full moon",
+   "norm": "a full moon",
+   "symbols": [
+    "луна"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "луна"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "stars everywhere",
+   "norm": "stars everywhere",
+   "symbols": [
+    "звёзды"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "звёзды"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my cat had kittens",
+   "norm": "my cat had kittens",
+   "symbols": [
+    "кошка"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "кошка"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a big bird flew into the window",
+   "norm": "a big bird flew into the window",
+   "symbols": [
+    "птица",
+    "полёт",
+    "окно"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "птица",
+    "полёт",
+    "окно"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I caught a fish",
+   "norm": "i caught a fish",
+   "symbols": [
+    "рыба"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "рыба"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "riding a white horse",
+   "norm": "riding a white horse",
+   "symbols": [
+    "лошадь"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "лошадь"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a wolf howled",
+   "norm": "a wolf howled",
+   "symbols": [
+    "волк"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "волк"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a bear attacked me",
+   "norm": "a bear attacked me",
+   "symbols": [
+    "медведь"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "медведь"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a huge spider",
+   "norm": "a huge spider",
+   "symbols": [
+    "паук"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "паук"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "mice in the kitchen",
+   "norm": "mice in the kitchen",
+   "symbols": [
+    "мышь",
+    "кухня"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "мышь",
+    "кухня"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a cow in the yard",
+   "norm": "a cow in the yard",
+   "symbols": [
+    "корова"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "корова"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "ants all over the table",
+   "norm": "ants all over the table",
+   "symbols": [
+    "насекомые"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "насекомые"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my mom was crying",
+   "norm": "my mom was crying",
+   "symbols": [
+    "мать",
+    "плач"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "мать",
+    "плач"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "talking to my dad",
+   "norm": "talking to my dad",
+   "symbols": [
+    "отец"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "отец"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I was holding a baby",
+   "norm": "i was holding a baby",
+   "symbols": [
+    "ребёнок"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "ребёнок"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a funeral in the rain",
+   "norm": "a funeral in the rain",
+   "symbols": [
+    "покойник",
+    "дождь"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "покойник",
+    "дождь"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a stranger followed me",
+   "norm": "a stranger followed me",
+   "symbols": [
+    "незнакомец",
+    "погоня"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "незнакомец",
+    "погоня"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my best friend laughed",
+   "norm": "my best friend laughed",
+   "symbols": [
+    "друг",
+    "смех"
+   ],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [
+    "друг",
+    "смех"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "A bright dream. Dreams like this restore your energy and often come when a decision has already been made, even if you haven't said it out loud yet."
+  },
+  {
+   "text": "we had a fight",
+   "norm": "we had a fight",
+   "symbols": [
+    "враг"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "враг"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a huge crowd",
+   "norm": "a huge crowd",
+   "symbols": [
+    "толпа"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "толпа"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my sister's wedding",
+   "norm": "my sister s wedding",
+   "symbols": [
+    "сестра",
+    "свадьба"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "сестра",
+    "свадьба"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I was pregnant",
+   "norm": "i was pregnant",
+   "symbols": [
+    "беременность"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "беременность"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I fell off a cliff",
+   "norm": "i fell off a cliff",
+   "symbols": [
+    "падение",
+    "гора"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "падение",
+    "гора"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I was late for the exam",
+   "norm": "i was late for the exam",
+   "symbols": [
+    "опоздание",
+    "экзамен"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "опоздание",
+    "экзамен"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I was looking for my keys",
+   "norm": "i was looking for my keys",
+   "symbols": [
+    "поиск",
+    "ключ"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "поиск",
+    "ключ"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "we said goodbye at the station",
+   "norm": "we said goodbye at the station",
+   "symbols": [
+    "прощание",
+    "вокзал"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "прощание",
+    "вокзал"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my hair fell out",
+   "norm": "my hair fell out",
+   "symbols": [
+    "волосы"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "волосы"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "there was blood on my hands",
+   "norm": "there was blood on my hands",
+   "symbols": [
+    "кровь",
+    "руки"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "кровь",
+    "руки"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my eyes hurt",
+   "norm": "my eyes hurt",
+   "symbols": [
+    "глаза"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "глаза"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "I was naked at school",
+   "norm": "i was naked at school",
+   "symbols": [
+    "нагота",
+    "школа"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "нагота",
+    "школа"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I was in hospital",
+   "norm": "i was in hospital",
+   "symbols": [
+    "болезнь"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "болезнь"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a deep wound",
+   "norm": "a deep wound",
+   "symbols": [
+    "рана"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "рана"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a locked door",
+   "norm": "a locked door",
+   "symbols": [
+    "дверь"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "дверь"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "going up the stairs",
+   "norm": "going up the stairs",
+   "symbols": [
+    "лестница"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "лестница"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a long road",
+   "norm": "a long road",
+   "symbols": [
+    "дорога"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "дорога"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "crossing a bridge",
+   "norm": "crossing a bridge",
+   "symbols": [
+    "мост"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "мост"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "hiding in the basement",
+   "norm": "hiding in the basement",
+   "symbols": [
+    "подвал"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "подвал"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the old attic",
+   "norm": "the old attic",
+   "symbols": [
+    "чердак"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "чердак"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "inside a church",
+   "norm": "inside a church",
+   "symbols": [
+    "храм"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "храм"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "walking in a cemetery",
+   "norm": "walking in a cemetery",
+   "symbols": [
+    "кладбище"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "кладбище"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I missed the train",
+   "norm": "i missed the train",
+   "symbols": [
+    "опоздание",
+    "поезд"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "опоздание",
+    "поезд"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "driving a car",
+   "norm": "driving a car",
+   "symbols": [
+    "машина"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "машина"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I found money",
+   "norm": "i found money",
+   "symbols": [
+    "деньги"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "деньги"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I lost my wedding ring",
+   "norm": "i lost my wedding ring",
+   "symbols": [
+    "поиск",
+    "свадьба",
+    "кольцо"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "поиск",
+    "свадьба",
+    "кольцо"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "he had a knife",
+   "norm": "he had a knife",
+   "symbols": [
+    "нож"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "нож"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "looking in the mirror",
+   "norm": "looking in the mirror",
+   "symbols": [
+    "зеркало"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "зеркало"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a letter from my father",
+   "norm": "a letter from my father",
+   "symbols": [
+    "письмо",
+    "отец"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "письмо",
+    "отец"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my phone wouldn't work",
+   "norm": "my phone wouldn t work",
+   "symbols": [
+    "телефон",
+    "работа"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "телефон",
+    "работа"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "reading a book",
+   "norm": "reading a book",
+   "symbols": [
+    "книга"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "книга"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the clock stopped",
+   "norm": "the clock stopped",
+   "symbols": [
+    "часы"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "часы"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a red dress",
+   "norm": "a red dress",
+   "symbols": [
+    "одежда"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "одежда"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I lost my shoes",
+   "norm": "i lost my shoes",
+   "symbols": [
+    "поиск",
+    "обувь"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "поиск",
+    "обувь"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "we ate dinner",
+   "norm": "we ate dinner",
+   "symbols": [
+    "еда"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "еда"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "fresh bread",
+   "norm": "fresh bread",
+   "symbols": [
+    "хлеб"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "хлеб"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "drinking wine",
+   "norm": "drinking wine",
+   "symbols": [
+    "вино"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "вино"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the police arrested me",
+   "norm": "the police arrested me",
+   "symbols": [
+    "полиция"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "полиция"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "there was a war",
+   "norm": "there was a war",
+   "symbols": [
+    "война"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "война"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my husband cheated on me",
+   "norm": "my husband cheated on me",
+   "symbols": [
+    "муж",
+    "измена"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "муж",
+    "измена"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my wife left",
+   "norm": "my wife left",
+   "symbols": [
+    "жена"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "жена"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "standing on a rooftop",
+   "norm": "standing on a rooftop",
+   "symbols": [
+    "высота"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "высота"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a construction site",
+   "norm": "a construction site",
+   "symbols": [
+    "стройка"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "стройка"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the railing was shaky",
+   "norm": "the railing was shaky",
+   "symbols": [
+    "опора"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "опора"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my head hurt",
+   "norm": "my head hurt",
+   "symbols": [
+    "голова"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "голова"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "a face without eyes",
+   "norm": "a face without eyes",
+   "symbols": [
+    "лицо",
+    "глаза"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "лицо",
+    "глаза"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my stomach hurt",
+   "norm": "my stomach hurt",
+   "symbols": [
+    "живот"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "живот"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "my heart was pounding",
+   "norm": "my heart was pounding",
+   "symbols": [
+    "сердце"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "сердце"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I saw my ex",
+   "norm": "i saw my ex",
+   "symbols": [
+    "бывший"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "бывший"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my brother came",
+   "norm": "my brother came",
+   "symbols": [
+    "брат"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "брат"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my grandpa smiled",
+   "norm": "my grandpa smiled",
+   "symbols": [
+    "дедушка"
+   ],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [
+    "дедушка"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "A bright dream. Dreams like this restore your energy and often come when a decision has already been made, even if you haven't said it out loud yet."
+  },
+  {
+   "text": "I met a famous actor",
+   "norm": "i met a famous actor",
+   "symbols": [
+    "знаменитость"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "знаменитость"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I couldn't find a toilet",
+   "norm": "i couldn t find a toilet",
+   "symbols": [
+    "туалет"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "туалет"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "taking a shower",
+   "norm": "taking a shower",
+   "symbols": [
+    "ванная"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "ванная"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "stuck in an elevator",
+   "norm": "stuck in an elevator",
+   "symbols": [
+    "лифт"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "лифт"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "the plane crashed",
+   "norm": "the plane crashed",
+   "symbols": [
+    "самолёт",
+    "авария"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "самолёт",
+    "авария"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "waiting for the bus",
+   "norm": "waiting for the bus",
+   "symbols": [
+    "автобус"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "автобус"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a flood in the city",
+   "norm": "a flood in the city",
+   "symbols": [
+    "наводнение",
+    "город"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "наводнение",
+    "город"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "walking on thin ice",
+   "norm": "walking on thin ice",
+   "symbols": [
+    "лёд"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "лёд"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a muddy puddle",
+   "norm": "a muddy puddle",
+   "symbols": [
+    "грязь",
+    "лужа"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "грязь",
+    "лужа"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a frog jumped",
+   "norm": "a frog jumped",
+   "symbols": [
+    "лягушка"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "лягушка"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "worms in an apple",
+   "norm": "worms in an apple",
+   "symbols": [
+    "червь",
+    "фрукты"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "червь",
+    "фрукты"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a tiger and a lion",
+   "norm": "a tiger and a lion",
+   "symbols": [
+    "тигр",
+    "лев"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "тигр",
+    "лев"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a crocodile in the river",
+   "norm": "a crocodile in the river",
+   "symbols": [
+    "крокодил",
+    "река"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "крокодил",
+    "река"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a pig and some chickens",
+   "norm": "a pig and some chickens",
+   "symbols": [
+    "свинья",
+    "курица"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "свинья",
+    "курица"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I broke an egg",
+   "norm": "i broke an egg",
+   "symbols": [
+    "яйцо"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "яйцо"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I lost my bag",
+   "norm": "i lost my bag",
+   "symbols": [
+    "поиск",
+    "сумка"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "поиск",
+    "сумка"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I lost my passport",
+   "norm": "i lost my passport",
+   "symbols": [
+    "поиск",
+    "документы"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "поиск",
+    "документы"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a chest of gold coins",
+   "norm": "a chest of gold coins",
+   "symbols": [
+    "золото",
+    "деньги"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "золото",
+    "деньги"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a bouquet of roses",
+   "norm": "a bouquet of roses",
+   "symbols": [
+    "цветы"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "цветы"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a birthday cake",
+   "norm": "a birthday cake",
+   "symbols": [
+    "праздник",
+    "торт"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "праздник",
+    "торт"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "someone was murdered",
+   "norm": "someone was murdered",
+   "symbols": [
+    "убийство"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "убийство"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "we were renovating the flat",
+   "norm": "we were renovating the flat",
+   "symbols": [
+    "ремонт"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "ремонт"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "we were moving house",
+   "norm": "we were moving house",
+   "symbols": [
+    "переезд",
+    "дом"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "переезд",
+    "дом"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I got lost in a maze",
+   "norm": "i got lost in a maze",
+   "symbols": [
+    "блуждание"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "блуждание"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I tried to scream",
+   "norm": "i tried to scream",
+   "symbols": [
+    "крик"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "крик"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "he kissed me",
+   "norm": "he kissed me",
+   "symbols": [
+    "поцелуй"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "поцелуй"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I had sex with a coworker",
+   "norm": "i had sex with a coworker",
+   "symbols": [
+    "близость",
+    "работа"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "близость",
+    "работа"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I died in the dream",
+   "norm": "i died in the dream",
+   "symbols": [
+    "смерть"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "смерть"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "an angel appeared",
+   "norm": "an angel appeared",
+   "symbols": [
+    "ангел"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "ангел"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I was praying",
+   "norm": "i was praying",
+   "symbols": [
+    "молитва"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "молитва"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a witch in the woods",
+   "norm": "a witch in the woods",
+   "symbols": [
+    "нечисть",
+    "лес"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "нечисть",
+    "лес"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a ghost in my bedroom",
+   "norm": "a ghost in my bedroom",
+   "symbols": [
+    "призрак",
+    "кровать"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "призрак",
+    "кровать"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "shopping at the market",
+   "norm": "shopping at the market",
+   "symbols": [
+    "магазин"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "магазин"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a garden full of fruit",
+   "norm": "a garden full of fruit",
+   "symbols": [
+    "сад",
+    "фрукты"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "сад",
+    "фрукты"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "lost in the desert",
+   "norm": "lost in the desert",
+   "symbols": [
+    "пустыня"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "пустыня"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "an earthquake hit",
+   "norm": "an earthquake hit",
+   "symbols": [
+    "землетрясение"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "землетрясение"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a tornado",
+   "norm": "a tornado",
+   "symbols": [
+    "буря"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "буря"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a rainbow over the lake",
+   "norm": "a rainbow over the lake",
+   "symbols": [
+    "радуга",
+    "озеро"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "радуга",
+    "озеро"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "he had a gun",
+   "norm": "he had a gun",
+   "symbols": [
+    "оружие"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "оружие"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I couldn't move",
+   "norm": "i couldn t move",
+   "symbols": [
+    "оцепенение"
+   ],
+   "tone": "тревожный",
+   "mood_said": true,
+   "short_shown": [
+    "оцепенение"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "An uneasy dream. That doesn't predict trouble: anxious dreams let out tension you keep under control during the day. People often feel lighter after one, and that's its job."
+  },
+  {
+   "text": "a red fox",
+   "norm": "a red fox",
+   "symbols": [
+    "лиса"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "лиса"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a white rabbit",
+   "norm": "a white rabbit",
+   "symbols": [
+    "заяц"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "заяц"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "an elephant",
+   "norm": "an elephant",
+   "symbols": [
+    "слон"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "слон"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a butterfly landed on me",
+   "norm": "a butterfly landed on me",
+   "symbols": [
+    "бабочка"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "бабочка"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "lice in my hair",
+   "norm": "lice in my hair",
+   "symbols": [
+    "паразиты",
+    "волосы"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "паразиты",
+    "волосы"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "I got a gift",
+   "norm": "i got a gift",
+   "symbols": [
+    "подарок"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "подарок"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "sailing on a boat",
+   "norm": "sailing on a boat",
+   "symbols": [
+    "лодка"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "лодка"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "an empty room",
+   "norm": "an empty room",
+   "symbols": [
+    "комната"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "комната"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my mother-in-law yelled at me",
+   "norm": "my mother in law yelled at me",
+   "symbols": [
+    "мать",
+    "родня супруга",
+    "крик"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "мать",
+    "родня супруга",
+    "крик"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my aunt visited",
+   "norm": "my aunt visited",
+   "symbols": [
+    "родственники"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "родственники"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my son was sick",
+   "norm": "my son was sick",
+   "symbols": [
+    "сын",
+    "болезнь"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "сын",
+    "болезнь"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "my daughter was laughing",
+   "norm": "my daughter was laughing",
+   "symbols": [
+    "дочь",
+    "смех"
+   ],
+   "tone": "светлый",
+   "mood_said": true,
+   "short_shown": [
+    "дочь",
+    "смех"
+   ],
+   "tone_note_in_short": true,
+   "tone_note": "A bright dream. Dreams like this restore your energy and often come when a decision has already been made, even if you haven't said it out loud yet."
+  },
+  {
+   "text": "I met the queen",
+   "norm": "i met the queen",
+   "symbols": [
+    "власть"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "власть"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "singing on stage",
+   "norm": "singing on stage",
+   "symbols": [
+    "сцена"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "сцена"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "piles of trash",
+   "norm": "piles of trash",
+   "symbols": [
+    "мусор"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "мусор"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "raw meat",
+   "norm": "raw meat",
+   "symbols": [
+    "мясо"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "мясо"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "picking mushrooms",
+   "norm": "picking mushrooms",
+   "symbols": [
+    "грибы"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "грибы"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "a dark cave",
+   "norm": "a dark cave",
+   "symbols": [
+    "темнота",
+    "пещера"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "темнота",
+    "пещера"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "stuck in a swamp",
+   "norm": "stuck in a swamp",
+   "symbols": [
+    "болото"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "болото"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  },
+  {
+   "text": "thick fog",
+   "norm": "thick fog",
+   "symbols": [
+    "туман"
+   ],
+   "tone": "ровный",
+   "mood_said": false,
+   "short_shown": [
+    "туман"
+   ],
+   "tone_note_in_short": false,
+   "tone_note": null
+  }
+ ]
+}

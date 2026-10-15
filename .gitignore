@@ -1,0 +1,15 @@
+# Secrets / env
+.env
+.env.*
+*.pem
+*.key
+# Python / Node
+__pycache__/
+*.pyc
+node_modules/
+# Test output
+shots/
+_site/
+# Never copy bot/user data here (dictionary only)
+*.db
+*.db-*

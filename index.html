@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' https://telegram.org; style-src 'self'; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light dark">
+<title>Вещий — дневник снов</title>
+<link rel="stylesheet" href="styles.css">
+<!-- Telegram Mini App bridge. Without it (plain browser, blocked) the page still works in browser mode. -->
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script src="engine.js" defer></script>
+<script src="storage.js" defer></script>
+<script src="app.js" defer></script>
+</head>
+<body>
+<div class="app" id="app">
+  <header class="top">
+    <div class="brand">
+      <svg class="moon" viewBox="0 0 32 32" aria-hidden="true"><path d="M21.5 4.2A12 12 0 1 0 27.8 21 10 10 0 0 1 21.5 4.2z"/><circle cx="24" cy="8" r="1.2"/><circle cx="28" cy="13" r="0.8"/></svg>
+      <div>
+        <h1 id="t-title">Вещий</h1>
+        <p class="sub" id="t-sub">дневник снов</p>
+      </div>
+    </div>
+    <div class="lang" role="group" aria-label="Language">
+      <button type="button" data-lang="ru" id="lang-ru">RU</button>
+      <button type="button" data-lang="en" id="lang-en">EN</button>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button type="button" role="tab" id="tab-write" class="tab active" aria-selected="true"></button>
+    <button type="button" role="tab" id="tab-diary" class="tab" aria-selected="false"><span id="tab-diary-label"></span><span class="count" id="diary-count" hidden></span></button>
+  </nav>
+
+  <main>
+    <section id="view-write" class="view">
+      <div id="write-form">
+        <label class="visually-hidden" for="dream" id="t-dream-label"></label>
+        <textarea id="dream" rows="7" maxlength="2000" autocomplete="off" spellcheck="true"></textarea>
+        <div class="row-between">
+          <span class="hint" id="counter">0 / 2000</span>
+          <span class="hint warn" id="input-error" role="alert" hidden></span>
+        </div>
+        <button type="button" class="primary" id="btn-read"></button>
+        <p class="hint privacy" id="privacy"></p>
+      </div>
+      <div id="result" hidden>
+        <div id="result-body"></div>
+        <p class="status" id="save-status" role="status"></p>
+        <div class="actions">
+          <a class="secondary" id="btn-bot" href="https://t.me/sonnik_morfey_bot?start=miniapp" target="_blank" rel="noopener"></a>
+          <button type="button" class="primary" id="btn-again"></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-diary" class="view" hidden>
+      <div id="diary-recurring"></div>
+      <div id="diary-list"></div>
+      <p class="status" id="diary-status" role="status"></p>
+      <button type="button" class="link danger" id="btn-clear" hidden></button>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <button type="button" class="support" id="btn-support"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4l-5.9 3.1 1.2-6.5L2.5 9.4l6.6-.9z"/></svg><span id="t-support"></span></button>
+    <p class="hint" id="t-disclaimer"></p>
+    <p class="hint small" id="t-status"></p>
+  </footer>
+</div>
+
+<div class="sheet-wrap" id="sheet" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-title">
+    <h2 id="sheet-title"></h2>
+    <p id="sheet-text"></p>
+    <button type="button" class="primary" id="sheet-ok"></button>
+  </div>
+</div>
+<noscript><p class="noscript">Для дневника снов нужен JavaScript. / JavaScript is required.</p></noscript>
+</body>
+</html>

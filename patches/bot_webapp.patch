@@ -1,0 +1,102 @@
+diff --git a/bot.py b/bot.py
+index f17a5fe..f3b1736 100644
+--- a/bot.py
++++ b/bot.py
+@@ -29,6 +29,7 @@ from __future__ import annotations
+ import argparse
+ import html
+ import json
++import os
+ import queue
+ import re
+ import sys
+@@ -52,6 +53,13 @@ import shop  # noqa: E402
+ TOKEN_FILE = Path(r"C:\Users\BOSS\.claude\secrets\dream_bot_token.txt")
+ API = "https://api.telegram.org/bot{t}/{m}"
+ 
++# Mini App «дневник снов» (projects/sonnik_miniapp, GitHub Pages). Выключено, пока
++# переменная не задана: без SONNIK_WEBAPP_URL бот ведёт себя как раньше (/app уходит
++# в разбор как обычный текст, меню и команды не меняются).
++WEBAPP_URL = os.environ.get("SONNIK_WEBAPP_URL", "").strip()
++if WEBAPP_URL and not WEBAPP_URL.startswith("https://"):
++    WEBAPP_URL = ""       # Telegram принимает web_app только по https
++
+ # ДЕНЬГИ. Платим не за доступ, а за глубину. Полностью закрывать бота после
+ # бесплатных разборов нельзя: человек уходит и не возвращается, а нам нужен
+ # дневник, который наполняется — он и есть причина вернуться. Поэтому короткий
+@@ -521,6 +529,36 @@ def share_button(chat_id: int, lang: str = "ru") -> None:
+             [{"text": tr(lang, "share_invite_btn"), "callback_data": "invite"}]]}))
+ 
+ 
++def webapp_button(chat_id: int, lang: str = "ru") -> None:
++    """Кнопка, открывающая Mini App внутри Telegram (только при SONNIK_WEBAPP_URL)."""
++    en = lang == "en"
++    send(chat_id,
++         "Your dream diary as an app: write a dream, get a reading, see what comes back."
++         if en else
++         "Дневник снов как приложение: записать сон, получить толкование, увидеть, что повторяется.",
++         reply_markup=json.dumps({"inline_keyboard": [[{
++             "text": "Open the diary" if en else "Открыть дневник",
++             "web_app": {"url": WEBAPP_URL}}]]}, ensure_ascii=False))
++
++
++def set_webapp_menu(reset: bool = False) -> bool:
++    """Кнопка меню слева от поля ввода: Mini App или обратно список команд.
++
++    Вызывается только вручную: python bot.py --set-webapp-menu / --reset-menu.
++    """
++    if reset:
++        r = api("setChatMenuButton", menu_button=json.dumps({"type": "commands"}))
++    else:
++        if not WEBAPP_URL:
++            print("SONNIK_WEBAPP_URL не задана (нужен https://...), меню не меняю")
++            return False
++        r = api("setChatMenuButton", menu_button=json.dumps(
++            {"type": "web_app", "text": "Дневник", "web_app": {"url": WEBAPP_URL}},
++            ensure_ascii=False))
++    print("setChatMenuButton", "commands" if reset else WEBAPP_URL, r.get("ok"), r.get("description", ""))
++    return bool(r.get("ok"))
++
++
+ def lang_buttons(chat_id: int, lang: str) -> None:
+     api("sendMessage", chat_id=chat_id, text=tr(lang, "lang_prompt"),
+         reply_markup=json.dumps({"inline_keyboard": [[
+@@ -595,6 +633,9 @@ def handle(con, msg: dict) -> None:
+     if low.startswith(("/shop", "/магазин", "/store")):
+         shop.show(api, chat_id, lang)
+         return
++    if WEBAPP_URL and low.startswith(("/app", "/дневник_снов")):
++        webapp_button(chat_id, lang)
++        return
+     if low.startswith(("/lang", "/язык", "/language")):
+         arg = low.split(maxsplit=1)[1].strip() if len(low.split()) > 1 else ""
+         new = ("en" if arg in ("en", "eng", "english", "английский") else
+@@ -973,7 +1014,10 @@ COMMANDS = {
+ def set_commands() -> bool:
+     ok = True
+     for code, lang in ((None, "ru"), ("ru", "ru"), ("en", "en")):
+-        cmds = json.dumps([{"command": c, "description": d} for c, d in COMMANDS[lang]],
++        items = list(COMMANDS[lang])
++        if WEBAPP_URL:
++            items.insert(2, ("app", "Dream diary app" if lang == "en" else "Дневник снов (приложение)"))
++        cmds = json.dumps([{"command": c, "description": d} for c, d in items],
+                           ensure_ascii=False)
+         r = api("setMyCommands", commands=cmds, language_code=code)
+         print("setMyCommands", code or "default", r.get("ok"), r.get("description", ""))
+@@ -1012,10 +1056,16 @@ def main() -> int:
+     ap.add_argument("--once", action="store_true")
+     ap.add_argument("--set-commands", action="store_true",
+                     help="поставить меню команд ru/en и выйти (бот может работать)")
++    ap.add_argument("--set-webapp-menu", action="store_true",
++                    help="кнопка меню = Mini App по SONNIK_WEBAPP_URL, и выйти")
++    ap.add_argument("--reset-menu", action="store_true",
++                    help="вернуть кнопку меню к списку команд, и выйти")
+     a = ap.parse_args()
+ 
+     if a.set_commands:
+         return 0 if set_commands() else 1
++    if a.set_webapp_menu or a.reset_menu:
++        return 0 if set_webapp_menu(reset=a.reset_menu) else 1
+ 
+     if not only_copy():
+         print("бот уже запущен другой копией, эта выходит")
