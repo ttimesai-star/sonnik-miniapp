@@ -273,7 +273,7 @@
 
   function updateBackButton() {
     if (!inTelegram || !tgAtLeast("6.1") || !tg.BackButton) return;
-    var need = state.view === "diary" || !$("result").hidden;
+    var need = state.view === "diary" || !$("result").hidden || !$("sheet").hidden;
     try { if (need) tg.BackButton.show(); else tg.BackButton.hide(); } catch (e) { /* ignore */ }
   }
   function onBack() {
@@ -541,7 +541,7 @@
   }
 
   function openBot(ev) {
-    if (inTelegram && tg.openTelegramLink) {
+    if (inTelegram && tgAtLeast("6.1") && tg.openTelegramLink) {
       ev.preventDefault();
       try { tg.openTelegramLink($("btn-bot").href); } catch (e) { window.open($("btn-bot").href, "_blank", "noopener"); }
     }

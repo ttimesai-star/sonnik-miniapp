@@ -62,7 +62,15 @@
     var local = opts.local || null;
     var mem = {}; // last resort when both are unavailable (private mode): lives until reload
 
-    function lGet(k) { try { return local ? local.getItem(LOCAL_NS + k) : (k in mem ? mem[k] : null); } catch (e) { return mem[k] || null; } }
+    function lGet(k) {
+      try {
+        if (local) {
+          var val = local.getItem(LOCAL_NS + k);
+          if (val !== null) return val;
+        }
+      } catch (e) { /* fallback to mem */ }
+      return k in mem ? mem[k] : null;
+    }
     function lSet(k, v) { try { if (local) local.setItem(LOCAL_NS + k, v); else mem[k] = v; } catch (e) { mem[k] = v; } }
     function lDel(k) { try { if (local) local.removeItem(LOCAL_NS + k); } catch (e) { /* ignore */ } delete mem[k]; }
     function lKeys() {
@@ -153,19 +161,22 @@
       },
 
       remove: function (id) {
-        lDel(id);
-        if (!cloud) return Promise.resolve(true);
-        return pcall(function (cb) { cloud.removeItem(id, cb); }).then(function () { return true; }).catch(function () { return false; });
+        if (!cloud) { lDel(id); return Promise.resolve(true); }
+        return pcall(function (cb) { cloud.removeItem(id, cb); }).then(function () {
+          lDel(id);
+          return true;
+        }).catch(function () { return false; });
       },
 
       /** Remove every diary entry. */
       clear: function (ids) {
-        ids.forEach(lDel);
-        if (!cloud || !ids.length) return Promise.resolve(true);
+        if (!cloud || !ids.length) { ids.forEach(lDel); return Promise.resolve(true); }
         var batches = [];
         for (var i = 0; i < ids.length; i += 50) batches.push(ids.slice(i, i + 50));
+        // drop local copies per batch that the cloud confirmed; a failed batch keeps its
+        // local copies (otherwise syncPending would push already-deleted entries back)
         return Promise.all(batches.map(function (b) {
-          return pcall(function (cb) { cloud.removeItems(b, cb); });
+          return pcall(function (cb) { cloud.removeItems(b, cb); }).then(function () { b.forEach(lDel); });
         })).then(function () { return true; }).catch(function () { return false; });
       },
 

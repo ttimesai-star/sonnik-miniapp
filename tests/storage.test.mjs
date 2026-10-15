@@ -134,6 +134,54 @@ test("unpack ignores corrupted values", () => {
   assert.equal(S.unpack("d_x", JSON.stringify({ t: "no created" })), null);
 });
 
+test("cloud remove/clear failure retains local entries", async () => {
+  const cloud = mockCloud({ failSet: false });
+  // override removeItems and removeItem to fail
+  cloud.removeItem = (_k, cb) => setTimeout(() => cb("FAIL"), 0);
+  cloud.removeItems = (_ks, cb) => setTimeout(() => cb("FAIL"), 0);
+
+  const local = mockLocal();
+  const st = S.create({ cloud, local });
+  const a = await st.add(dream(1));
+  const b = await st.add(dream(2));
+
+  // Sync entries into local storage manually for failure case testing
+  local.setItem("sonnik:" + a.id, S.pack(dream(1)));
+  local.setItem("sonnik:" + b.id, S.pack(dream(2)));
+
+  const remResult = await st.remove(a.id);
+  assert.equal(remResult, false);
+  // local entry for a.id should still exist since cloud removal failed
+  assert.ok(local.getItem("sonnik:" + a.id) !== null);
+
+  const clearResult = await st.clear([b.id]);
+  assert.equal(clearResult, false);
+  // local entry for b.id should still exist since cloud clear failed
+  assert.ok(local.getItem("sonnik:" + b.id) !== null);
+});
+
+test("quota-full localStorage: entry kept in memory is still listed (lGet falls back to mem)", async () => {
+  const local = mockLocal();
+  local.setItem = () => { throw new Error("QuotaExceededError"); };
+  const st = S.create({ cloud: null, local });
+  assert.equal((await st.add(dream(1))).ok, true);
+  assert.deepEqual((await st.list()).entries.map((e) => e.text), ["сон 1"]);
+});
+
+test("clear: partial cloud failure drops local copies only for confirmed batches", async () => {
+  const cloud = mockCloud({ failSet: true });   // all 60 adds land locally (pending)
+  const local = mockLocal();
+  const st = S.create({ cloud, local });
+  const ids = [];
+  for (let i = 0; i < 60; i++) ids.push((await st.add(dream(i))).id);
+  cloud.failSet = false;
+  let call = 0;
+  cloud.removeItems = (ks, cb) => setTimeout(() => (++call === 1 ? cb(null, true) : cb("SERVER_ERROR")), 0);
+  assert.equal(await st.clear(ids), false);
+  const left = [...local._m.keys()].filter((k) => k.startsWith("sonnik:d_")).length;
+  assert.equal(left, 10);                       // first batch of 50 confirmed and gone, failed batch of 10 kept
+});
+
 test("settings round-trip (language) cloud and local", async () => {
   const st = S.create({ cloud: mockCloud(), local: mockLocal() });
   await st.setSetting("lang", "en");

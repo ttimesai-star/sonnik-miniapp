@@ -31,12 +31,12 @@
   </header>
 
   <nav class="tabs" role="tablist">
-    <button type="button" role="tab" id="tab-write" class="tab active" aria-selected="true"></button>
-    <button type="button" role="tab" id="tab-diary" class="tab" aria-selected="false"><span id="tab-diary-label"></span><span class="count" id="diary-count" hidden></span></button>
+    <button type="button" role="tab" id="tab-write" class="tab active" aria-selected="true" aria-controls="view-write"></button>
+    <button type="button" role="tab" id="tab-diary" class="tab" aria-selected="false" aria-controls="view-diary"><span id="tab-diary-label"></span><span class="count" id="diary-count" hidden></span></button>
   </nav>
 
   <main>
-    <section id="view-write" class="view">
+    <section id="view-write" class="view" role="tabpanel" aria-labelledby="tab-write">
       <div id="write-form">
         <label class="visually-hidden" for="dream" id="t-dream-label"></label>
         <textarea id="dream" rows="7" maxlength="2000" autocomplete="off" spellcheck="true"></textarea>
@@ -57,7 +57,7 @@
       </div>
     </section>
 
-    <section id="view-diary" class="view" hidden>
+    <section id="view-diary" class="view" role="tabpanel" aria-labelledby="tab-diary" hidden>
       <div id="diary-recurring"></div>
       <div id="diary-list"></div>
       <p class="status" id="diary-status" role="status"></p>
